@@ -61,5 +61,10 @@ namespace SH_WindowsForms_Task1
             AdditionalExercise2_Parent form = new AdditionalExercise2_Parent();
             form.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/vladofon/SH_WindowsForms_Task1/blob/master/SH_WindowsForms_Task1/Program.cs");
+        }
     }
 }
